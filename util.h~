@@ -1,0 +1,11 @@
+#define PORT    12345
+#define BUFFER  32
+
+const char send_join = 0;
+const char send_leave = 1;
+const char send_lookup = 2;
+const char send_update = 3;
+const char recv_join = 64;
+const char recv_leave = 65;
+const char recv_lookup = 66;
+const char recv_update = 67;
